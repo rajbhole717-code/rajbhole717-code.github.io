@@ -88,3 +88,21 @@ git push origin main
 *(Note: If you renamed your repository to `rajbhole717-code.github.io` as discussed, your local git might need the remote URL updated once. If it pushes successfully, you're good!)*
 
 Wait about 1–2 minutes, refresh your live website, and your new art will be there!
+
+---
+
+## 🤖 AI Assistant Prompts
+
+If you want an AI coding assistant to help you update the website in the future, you can copy and paste these exact prompts to give them perfect instructions:
+
+### ➕ Add a New Artwork
+> "I want to add a new artwork to my portfolio. The image is located at `[INSERT PATH TO IMAGE HERE]` on my local machine. Please copy it into the `SketchUp_/` directory and add the corresponding HTML inside `index.html`. The title of the artwork is '[TITLE]', the medium is '[MEDIUM]', and it should go under the '[CATEGORY]' filter."
+
+### ➖ Remove an Artwork
+> "I want to remove an artwork from my portfolio. Please look through `index.html` for the artwork titled '[TITLE]' and remove its HTML block. Also, delete the corresponding image file from the `SketchUp_/` directory so we save space, then commit and push the changes."
+
+### 📝 Change Text or Links
+> "Please update my portfolio website. I want to change the text in the [About/Contact] section from '[OLD TEXT]' to '[NEW TEXT]'. Please find it in `index.html`, make the change, and then commit and push to my repository."
+
+### ✨ Add a New Filter Category
+> "I have a new type of artwork: '[NEW CATEGORY NAME]'. Please add a new filter button in `index.html` for this category. Make sure the `data-filter` matches the formatting of the others, and push the update to GitHub."
